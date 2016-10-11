@@ -32,6 +32,7 @@ public class MatrixMultiplication {
     }
 
     public static void main(String... args) {
+        //TODO commandline input
         Scanner in = new Scanner(System.in);
         int a = in.nextInt();
         int b = in.nextInt();
