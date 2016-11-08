@@ -9,7 +9,7 @@ package edu.technopolis.homework;
 public class MatrixMultiplication {
 
 
-    static void matrixMult(int[][] arrA, int[][] arrB, int[][] arrC) {
+    static void matrixMult(int[][] arrA, int[][] arrB, long[][] arrC) {
         for (int i = 0; i < arrC.length; i++) {
             for (int j = 0; j < arrC[i].length; j++)
                 for (int l = 0; l < arrB.length; l++) {
@@ -18,7 +18,7 @@ public class MatrixMultiplication {
         }
     }
 
-    static void print(int[][] arr) {
+    static void print(long[][] arr) {
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) System.out.print(arr[i][j]);
             System.out.println();
@@ -44,15 +44,15 @@ public class MatrixMultiplication {
             for (int j = 0; j < arrB[i].length; j++) arrB[i][j] = Integer.parseInt(args[ind++]);
         }
 
-        int[][] arrC;
+        long[][] arrC;
 
 
         if (a == y) {
-            arrC = new int[x][b];
+            arrC = new long[x][b];
             matrixMult(arrB, arrA, arrC);
             print(arrC);
         } else if (b == x) {
-            arrC = new int[a][y];
+            arrC = long int[a][y];
             matrixMult(arrA, arrB, arrC);
             print(arrC);
         } else System.out.println("Нельзя перемножить матрицы размером" + a + " на " + b + " и " + x + " на " + y);
