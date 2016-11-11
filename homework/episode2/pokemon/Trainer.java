@@ -1,4 +1,4 @@
-package edu.technopolis.homework.pokemon;
+package pokemon;
 
 import java.util.ArrayList;
 import java.util.Random;
