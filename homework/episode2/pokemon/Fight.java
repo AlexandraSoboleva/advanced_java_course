@@ -1,4 +1,4 @@
-package edu.technopolis.homework.pokemon;
+package pokemon;
 
 public class Fight {
 //в консоль выводится состояние боя и его участников
