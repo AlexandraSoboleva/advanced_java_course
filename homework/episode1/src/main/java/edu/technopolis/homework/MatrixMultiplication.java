@@ -52,7 +52,11 @@ public class MatrixMultiplication {
             matrixMult(arrB, arrA, arrC);
             print(arrC);
         } else if (b == x) {
+<<<<<<< Updated upstream
             arrC = long int[a][y];
+=======
+            arrC = new long[a][y];
+>>>>>>> Stashed changes
             matrixMult(arrA, arrB, arrC);
             print(arrC);
         } else System.out.println("Нельзя перемножить матрицы размером" + a + " на " + b + " и " + x + " на " + y);
