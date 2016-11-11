@@ -1,4 +1,4 @@
-package edu.technopolis.homework.pokemon;
+package pokemon;
 
 import static edu.technopolis.homework.pokemon.CoachedPokemons.coach;
 import static edu.technopolis.homework.pokemon.Training.trainAttack;
